@@ -1,0 +1,14 @@
+$ mkdir slack-background-bot
+$ cd slack-background-bot
+
+$ git init
+$ touch README.md
+$ git add README.md
+$ git commit -m "Initial commit."
+
+$ heroku apps : create
+$ heroku ps:scale web=1
+$ echo " web: node app.js" > Procfile
+
+$ npm init
+$ npm install --save express body-parser
