@@ -1,5 +1,5 @@
-$ mkdir slack-background-bot
-$ cd slack-background-bot
+
+$ cd Users/ares_qm00/Documents/bot
 
 $ git init
 $ touch README.md
